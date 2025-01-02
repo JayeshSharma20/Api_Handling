@@ -6,7 +6,7 @@ import { logout } from '../reduxStore/reducer/authReducer';
 
 const Navbars = () => {
    
-    const { user } = useSelector((state) => state.auth); 
+    const { user } = useSelector((state) => state.user); 
     const dispatch = useDispatch(); 
 
     
